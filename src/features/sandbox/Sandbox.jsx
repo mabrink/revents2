@@ -15,20 +15,18 @@ export default function Sandbox() {
             <h3>The data is: {data} </h3>
             <Button 
                 name='increment'
-                loading={loading}
                 loading={loading && target === 'increment'} 
                 onClick={(e) => {
-                    dispatch(increment(20));
+                    dispatch(increment(20))
                     setTarget(e.target.name);
                  } }
                 content='Increment' 
                 color='green' />
             <Button 
                 name='decrement'
-                loading={loading}
                 loading={loading && target === 'decrement'}  
                 onClick={(e) => {
-                    dispatch(decrement(10));
+                    dispatch(decrement(10))
                     setTarget(e.target.name); 
                 } }
                

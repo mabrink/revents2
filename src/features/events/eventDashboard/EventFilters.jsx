@@ -11,7 +11,7 @@ export default function EventFilters() {
                 <Menu.Item content="I'm going"  />
                 <Menu.Item content="I'm hosting"  />
             </Menu>
-            <Header icon='Calander' attached color='teal' contents='Select date' />
+            <Header icon='calendar' attached color='teal' contents='Select date' />
             <Calendar />
         </>
     )
