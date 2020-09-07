@@ -6,7 +6,7 @@ import EventListItemPlaceholder from './EventListItemPlaceholder';
 import EventFilters from './EventFilters';
 import {  listenToEventsFromFirestore } from '../../../app/firestore/firestoreService';
 import { listenToEvents } from '../eventActions';
-import useFirestoreCollection from '../../../app/hooks/useFireStoreCollection';
+import useFirestoreCollection from '../../../app/hooks/useFirestoreCollection';
 
  export default function  EventDashboard()  {
     const dispatch = useDispatch();
